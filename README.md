@@ -34,32 +34,65 @@ With a background in software engineering, I focus not just on building models, 
 
 ## Projects (Planned & In Progress)
 
-This repository will include hands-on projects across key ML and data domains:
+This repository is structured around key Machine Learning domains, with each project designed to simulate real-world systems.
 
-### 🔹 Machine Learning Projects
-
+### 🔹 1. Predictive Modeling (Core ML)
 * Customer churn prediction system
+* Loan default / credit risk model (fintech-focused)
 * House price prediction model
-* Loan default / credit risk model
-* Sales forecasting (time series)
+* Marketing conversion prediction
 
-### 🔹 Recommender Systems
-
+### 🔹 2. Recommender Systems
 * Event recommendation system (EventKnit-inspired)
 * Product recommendation engine
-* Content-based & collaborative filtering models
+* Hybrid recommender (collaborative + content-based)
 
-### 🔹 Anomaly Detection
-
-* Fraud detection system (fintech-focused)
-* Transaction anomaly detection
+### 🔹 3. Anomaly Detection (Fraud & Security)
+* Transaction fraud detection system
+* Payment anomaly detection (fintech use case)
 * System/log anomaly detection
 
-### 🔹 End-to-End ML Systems
+### 🔹 4. Time Series & Forecasting
+* Ticket sales forecasting (EventKnit use case)
+* Revenue forecasting system
+* Demand prediction for supply chain
 
-* Model → API integration using FastAPI
-* ML model deployment pipelines
-* Real-world application simulations
+### 🔹 5. Natural Language Processing (NLP)
+* Event description classifier (categorization)
+* Sentiment analysis (event feedback / reviews)
+* Simple chatbot for event/customer support
+
+### 🔹 6. Computer Vision
+* Event image classification (e.g., concerts vs conferences)
+* Basic object detection (crowd estimation or scene detection)
+
+### 🔹 7. Reinforcement Learning (Exploration)
+* Dynamic pricing simulation (tickets or products)
+* Resource allocation simulation
+
+### 🔹 8. Graph & Network ML
+* User-event interaction graph (recommendations)
+* Fraud ring detection (transaction networks)
+
+### 🔹 9. Audio & Speech ML
+* Audio classification (event/music categorization)
+* Speech-to-text for event recordings (exploratory)
+
+### 🔹 10. MLOps & Production ML
+* Model → API deployment using FastAPI
+* ML pipeline orchestration (Airflow/dbt)
+* Model monitoring & versioning simulation
+
+### How This Repository Is Structured
+
+Each project follows a consistent pipeline:
+
+* Problem Definition
+* Data Collection / Ingestion
+* Data Cleaning & Feature Engineering
+* Modeling
+* Evaluation
+* Deployment / System Design Considerations
 
 ---
 
